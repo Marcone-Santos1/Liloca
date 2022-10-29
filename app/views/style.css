@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0px ;
+    margin: 0px;
+}
+
+body{
+    background-color: navajowhite;
+
+}
+.topo1{
+    background-color: chocolate;
+    border: 3px solid black;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.Menu1{
+  background-color: rgb(125, 60, 13) ;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+.MRegristre{
+    background-color: rgba(97, 42, 3);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    position: fixed;
+    right: 20px;
+
+
+}
+.MSobre{
+    background-color: rgba(97, 42, 3);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    position: fixed;
+    right: 160px;
+
+}
+
+.MContato{
+    background-color: rgba(97, 42, 3);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    position: fixed;
+
+    right: 242px;
+
+}
+
+.MBolos{
+    background-color: rgba(97, 42, 3);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    position: fixed;
+    right: 312px;
+
+}
