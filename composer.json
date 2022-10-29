@@ -1,0 +1,17 @@
+{
+    "name": "ms580/liloca",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcone-Santos1",
+            "email": "marconemagalhaes203@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4"
+    }
+}
