@@ -24,7 +24,7 @@
                 <li><a href="sobre">Sobre Nós</a></li>
                 <li><a href="bolos">Bolos</a></li>
                 <li><a href="contact">Contato</a></li>
-                <li><a href="regristre">Login</a></li>
+                <li><a href="login">Login</a></li>
             </ul>
         </nav>
     </header>

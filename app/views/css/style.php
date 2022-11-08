@@ -94,4 +94,14 @@
         padding-bottom: 10px;
     }
 
+    .sobre h2 {
+        padding-bottom: 10px;
+    }
+
+    .sobre p {
+        padding-bottom: 10px;
+        font-weight: 500px;
+        font-size: 1rem;
+    }
+
 </style>

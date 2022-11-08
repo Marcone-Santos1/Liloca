@@ -11,7 +11,6 @@ class ContactController
 
     public function store($params)
     {
-        var_dump($params);
         Controller::view('store');
     }
 
