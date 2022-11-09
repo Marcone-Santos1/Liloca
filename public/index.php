@@ -1,5 +1,7 @@
 <?php
 
+use app\controllers\Controller;
+
 require '../vendor/autoload.php';
 require  '../routes/router.php';
 
@@ -12,13 +14,12 @@ try {
         throw new Exception("A rota não existe");
     }
 
-    if (!array_key_exists($uri, $router[$request])){
-        throw new Exception("A rota não existe");
+    if (!array_key_exists($uri, $router[$request])) {
+        return Controller::view("notFound");
     }
 
-   $controller = $router[$request][$uri];
+    $controller = $router[$request][$uri];
     $controller();
-
 } catch (Exception $e) {
-            echo $e->getMessage();
+    echo $e->getMessage();
 }

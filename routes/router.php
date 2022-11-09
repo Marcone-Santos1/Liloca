@@ -30,8 +30,11 @@ $router = [
         '/contact' => fn() => load("ContactController", "index"),
         '/sobre' => fn() => load("SobreController", "sobre"),
         '/bolos' => fn() => load("BoloController", "bolos"),
+        '/login' => fn() => load('LoginController', 'login')
     ],
     'POST' => [
         '/contact' => fn() => load("ContactController", "store"),
+        '/login' => fn() => load('LoginController', 'signin'),
+        '/login' => fn() => load('LoginController', 'signup')
     ]
 ];
