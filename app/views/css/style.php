@@ -12,6 +12,10 @@
         background-color: navajowhite;
     }
 
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
     img {
         max-width: 100%;
         display: block;
@@ -102,6 +106,11 @@
         padding-bottom: 10px;
         font-weight: 500px;
         font-size: 1rem;
+    }
+
+    .formCadastroProduto {
+        display: flex;
+        flex-direction: column;
     }
 
 </style>
