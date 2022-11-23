@@ -6,6 +6,11 @@
         margin: 0px;
         text-decoration: none;
         box-sizing: border-box;
+        list-style: none;
+    }
+
+    a {
+        color: black;
     }
 
     body {
@@ -21,11 +26,6 @@
         display: block;
     }
 
-    * {
-        text-decoration: none;
-        list-style: none;
-    }
-
     .title {
         color: black;
         font-style: italic;
@@ -39,23 +39,6 @@
         border: 3px solid black;
         text-align: center;
         
-    }
-
-    .menu {
-        display: flex;
-        gap: 20px;
-        justify-content: end;
-        flex-wrap: wrap;
-    }
-
-    .header nav .menu li a {
-        font-size: 1rem;
-        display: block;
-        background-color: rgba(97, 42, 3);
-        border: 2px solid black;
-        border-radius: 10px;
-        color: white;
-        padding: 7px;
     }
 
     .container {

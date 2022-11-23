@@ -38,6 +38,8 @@ $router = [
         '/contact' => fn() => load("ContactController", "store"),
         '/login' => fn() => load('LoginController', 'signin'),
         '/login' => fn() => load('LoginController', 'signup'),
-        '/cadProduto' => fn() => load('cadProdutoController', 'cadProdutoPost')
+        '/cadProduto' => fn() => load('cadProdutoController', 'cadProdutoPost'),
+        '/updateProduto' => fn() => load('cadProdutoUpdateController', 'cadProdutoUpdate'),
+        '/deleteProduto' => fn() => load('cadProdutoDeleteController', 'cadProdutoDelete')        
     ]
 ];

@@ -1,6 +1,9 @@
 <?php
 
+require_once('../../vendor/autoload.php');
+
 use app\Model\Data;
+
 $teste = new Data();
 $teste->query("select * from Produtos");
 $result = $teste->result();
@@ -24,8 +27,8 @@ $result = $teste->result();
                 <td><?= $dados['Quantidade'] ?></td>
                 <td><?= $dados['Valor'] ?></td>
                 <td>
-                    <button class="btn btn-danger" onclick="fcnExcluir()"><i class="fa fa-trash"></i></button>
-                    <button class="btn btn-primary" onclick="fcnEditar()"><i class="fa fa-pencil-square-o"></i></button>
+                    <button class="btn btn-danger" onclick="fcnExcluir(<?= $dados['idProdutos'] ?>)"><i class="fa fa-trash"></i></button>
+                    <button class="btn btn-primary" onclick="fcnEditar(<?= $dados['idProdutos'] ?>)"><i class="fa fa-pencil-square-o"></i></button>
                 </td>
             </tr>
 
