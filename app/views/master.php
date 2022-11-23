@@ -46,7 +46,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/cadProduto">Cadastrar</a>
-                            <a class="dropdown-item" href="/produtos">Listar</a>
+                            <a class="dropdown-item" href="/produtos">Produtos</a>
                         </div>
                     </li>
                 </ul>
