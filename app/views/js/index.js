@@ -1,4 +1,4 @@
-var fcnListarTemplates = (function () {
+var fcnListar = (function () {
     $.ajax({
         url: "./views/listar.php",
         type: 'get',
@@ -9,4 +9,6 @@ var fcnListarTemplates = (function () {
         })
 });
 
-fcnListarTemplates();
+$(function () {
+    fcnListar();
+});
