@@ -1,6 +1,6 @@
 var fcnListar = (function () {
     $.ajax({
-        url: ".//views//listar.php",
+        url: ".//app//views//listar.php",
         type: 'get',
         dataType: 'html'
     })

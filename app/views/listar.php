@@ -1,7 +1,9 @@
 <?php
 
 use app\Model\Data;
-
+$teste = new Data();
+$teste->query("select * from Produtos");
+$result = $teste->result();
 ?>
 
 <table class="table">
@@ -15,10 +17,6 @@ use app\Model\Data;
     </thead>
     <tbody>
         <?php
-        $teste = new Data();
-        $teste->query("select * from Produtos");
-        $result = $teste->result();
-
         foreach ($result as $dados) {
         ?>
             <tr class="text-center">
