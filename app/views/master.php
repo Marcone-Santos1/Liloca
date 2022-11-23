@@ -49,25 +49,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.js" integrity="sha512-OMYI9iOelB12PWdWHfU6XouDuUvszFZEywO4W9KFJGP3aj/nP5UECd5ctMqRm+/9Qk3oOFqhbXVi6cJAqlAUuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- <script src="https://cdn.jsdelivr.net/gh/Marcone-Santos1/Liloca@master/app/views/script/index.js"></script> -->
-
-    <script>
-        var fcnListar = (function() {
-            $.ajax({
-                    url: "https://cdn.jsdelivr.net/gh/Marcone-Santos1/Liloca@master/app/views/listar.php",
-                    type: 'get',
-                    dataType: 'html'
-                })
-                .done(function(msg) {
-                    $("#root").html(msg);
-                    console.log(msg)
-                })
-        });
-
-        $(function() {
-            fcnListar();
-        });
-    </script>
+    <script src="/js/index.js"></script>
 
 </body>
 
