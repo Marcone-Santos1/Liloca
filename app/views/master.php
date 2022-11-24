@@ -49,6 +49,17 @@
                             <a class="dropdown-item" href="/produtos">Produtos</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Relatórios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/clientes-relatorio">Clientes</a>
+                            <a class="dropdown-item" href="/produtos-relatorio">Produtos</a>
+                            <a class="dropdown-item" href="/pedidos-relatorio">Produtos</a>
+                            <a class="dropdown-item" href="/aniversáriantes-relatorio">Produtos</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
